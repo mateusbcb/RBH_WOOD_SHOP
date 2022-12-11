@@ -1,0 +1,82 @@
+@media screen and  (max-width: 500px) {
+    #Logo_text {
+        display: none;
+    }
+
+    #Top_bar .logo #logo {
+        text-align: left !important;
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+@media screen and  (max-width: 560px) {
+    .col-6, .col-12 {
+        clear: both;
+        width: 100% !important;
+    }
+}
+
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple {
+    border-radius: 0px !important;
+    /*border-color: rgba(0, 0, 0, .08) !important;*/
+    border: 1px rgba(255, 255, 255, 0) !important;
+    height: 45px;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+    margin: 0px !important;
+    padding: 15px !important;
+    border: 1px rgba(255, 255, 255, 0) !important;
+    height: 45px;
+}
+
+.column {
+    width: 100% !important;
+}
+
+.col-12 {
+    float: left;
+    width: 100%;
+}
+
+.col-6 {
+    float: left;
+    width: 50%;
+}
+
+.img_prev img {
+    float: left;
+    width: 40%;
+    margin: 1%;
+}
+
+.top_bar_left{
+    width: 100% !important;
+}
+
+#Content.no-padding, .template-slider #Content, .with_aside #Content {
+    padding-top: 30px !important;
+}
+
+.file-input {
+    background-color: #fff;
+    color: #626262;
+    -webkit-box-shadow:  0 0 2px 2px rgb(0 0 0 / 2%);
+    box-shadow:  0 0 2px 2px rgb(0 0 0 / 2%);
+    border-color: rgba(0, 0, 0, .08);
+    padding: 10px;
+    outline: none;
+    margin: 0;
+    width: 230px;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
